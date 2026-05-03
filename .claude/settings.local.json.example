@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(docker info *)",
+      "PowerShell(docker stop *)",
+      "PowerShell(docker rm *)",
+      "PowerShell(docker run *)",
+      "PowerShell(n8n *)",
+      "PowerShell(npm *)",
+      "PowerShell(npm show *)",
+      "PowerShell(npm root *)",
+      "PowerShell(node --version)",
+      "PowerShell(node --version; *)",
+      "PowerShell(Get-ChildItem *)",
+      "PowerShell(Get-Command *)",
+      "PowerShell(New-Item *)",
+      "PowerShell(netstat *)",
+      "Skill(update-config)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "Read(//tmp/**)",
+      "Bash(Get-ChildItem *)",
+      "Bash(Select-Object FullName)",
+      "Bash(Select-Object FullName, Length)",
+      "Bash(echo \"EXIT: $?\")"
+    ]
+  }
+}
